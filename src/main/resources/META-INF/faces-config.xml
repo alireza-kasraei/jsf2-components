@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faces-config version="2.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+
+	<name>core</name>
+
+	<component>
+		<component-type>net.devk.core.component.JalaliCalendar</component-type>
+		<component-class>net.devk.core.component.JalaliCalendar</component-class>
+	</component>
+
+	<converter>
+		<converter-id>jalaliDateConverter</converter-id>
+		<converter-class>net.devk.core.converter.jalali.JalaliDateConverter</converter-class>
+	</converter>
+
+	<render-kit>
+		<renderer>
+			<component-family>net.devk.faces.components</component-family>
+			<renderer-type>net.devk.core.component.JalaliCalendarRenderer</renderer-type>
+			<renderer-class>net.devk.core.component.JalaliCalendarRenderer</renderer-class>
+		</renderer>
+	</render-kit>
+
+
+
+</faces-config>

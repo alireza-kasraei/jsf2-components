@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facelet-taglib xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd"
+	version="2.0">
+
+	<namespace>http://components.devk.net/ui</namespace>
+	<tag>
+		<tag-name>jalaliCalendar</tag-name>
+		<component>
+			<component-type>net.devk.core.component.JalaliCalendar</component-type>
+			<renderer-type>net.devk.core.component.JalaliCalendarRenderer</renderer-type>
+		</component>
+		<attribute>
+			<description><![CDATA[Size of the generated Input Tag.]]></description>
+			<name>size</name>
+			<required>false</required>
+			<type>java.lang.Integer</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Style attribute of the generated Input Tag.]]></description>
+			<name>style</name>
+			<required>false</required>
+			<type>java.lang.String</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Space seperated list of style classes for the generated Input Tag.]]></description>
+			<name>styleClass</name>
+			<required>false</required>
+			<type>java.lang.String</type>
+		</attribute>
+		<attribute>
+			<name>tabindex</name>
+			<required>false</required>
+			<type>java.lang.Integer</type>
+		</attribute>
+		<attribute>
+			<name>title</name>
+			<required>false</required>
+			<type>java.lang.String</type>
+		</attribute>
+		<attribute>
+			<name>disabled</name>
+			<required>false</required>
+			<type>java.lang.Boolean</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Shows Week Number in popup Date picker.]]></description>
+			<name>showWeek</name>
+			<required>false</required>
+			<type>java.lang.Boolean</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Creates a descriptive text behinde the main component	that shows the selected date in Farsi.]]></description>
+			<name>altField</name>
+			<required>false</required>
+			<type>java.lang.Boolean</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Shows Helper Buttons.]]></description>
+			<name>showButtonPanel</name>
+			<required>false</required>
+			<type>java.lang.Boolean</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Creates a simple combo on datepicker for selecting month.]]></description>
+			<name>changeMonth</name>
+			<required>false</required>
+			<type>java.lang.Boolean</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Creates a simple combo on datepicker for selecting Year.]]></description>
+			<name>changeYear</name>
+			<required>false</required>
+			<type>java.lang.Boolean</type>
+		</attribute>
+	</tag>
+</facelet-taglib>
